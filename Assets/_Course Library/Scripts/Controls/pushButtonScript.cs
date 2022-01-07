@@ -28,7 +28,7 @@ public class pushButtonScript : XRBaseInteractable
     {
         Debug.Log(args.interactable.name);
         Debug.Log(args.interactor.name);
-        Debug.Log(isSelected);
+        Debug.Log(isSelected);        
         if (isSelected)
         {
             Debug.Log("Toggle ...");
@@ -40,6 +40,22 @@ public class pushButtonScript : XRBaseInteractable
                 material = offMaterial;
             this.GetComponent<Renderer>().material = material;
         }
+
+        if (args.interactor.name == "LeftHand Controller")
+        {
+            if (!LeftControllerScript.flag)
+            {
+                LeftControllerScript.firstSelectedInteractable = args.interactable;
+                Debug.Log("First interactor : " + LeftControllerScript.firstSelectedInteractable.name);
+                LeftControllerScript.flag = true;
+            }
+            else
+            {
+                LeftControllerScript.secondSelectedInteractable = args.interactable;
+                Debug.Log("Second interactor : " + LeftControllerScript.secondSelectedInteractable.name);
+                LeftControllerScript.flag = false;
+            }
+        } 
     }
 
 }
