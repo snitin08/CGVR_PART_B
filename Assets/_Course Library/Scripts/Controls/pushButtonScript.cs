@@ -9,6 +9,7 @@ public class pushButtonScript : XRBaseInteractable
 
     public Material onMaterial;
     public Material offMaterial;
+    public GameObject connectorObject;
     public bool on = false;
     private UnityAction<SelectEnterEventArgs> toggleAction;
     // Start is called before the first frame update
@@ -40,22 +41,6 @@ public class pushButtonScript : XRBaseInteractable
                 material = offMaterial;
             this.GetComponent<Renderer>().material = material;
         }
-
-        if (args.interactor.name == "LeftHand Controller")
-        {
-            if (!LeftControllerScript.flag)
-            {
-                LeftControllerScript.firstSelectedInteractable = args.interactable;
-                Debug.Log("First interactor : " + LeftControllerScript.firstSelectedInteractable.name);
-                LeftControllerScript.flag = true;
-            }
-            else
-            {
-                LeftControllerScript.secondSelectedInteractable = args.interactable;
-                Debug.Log("Second interactor : " + LeftControllerScript.secondSelectedInteractable.name);
-                LeftControllerScript.flag = false;
-            }
-        } 
     }
 
 }

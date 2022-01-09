@@ -109,3 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447103dc7cd19974c9541021532f4df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offMaterial: {fileID: 2100000, guid: ac486b295b8d54758a11e0eba1cb0d9a, type: 2}
+  onMaterial: {fileID: 2100000, guid: cb26f7e030d2caf42816d1e99c2b8dcb, type: 2}
+  connectorObject: {fileID: 0}
