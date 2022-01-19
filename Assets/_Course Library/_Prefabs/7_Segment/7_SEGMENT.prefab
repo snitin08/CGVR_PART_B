@@ -315,7 +315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723771791593788419, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
       propertyPath: m_Name
-      value: LED_F
+      value: LED_D
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
@@ -481,7 +481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723771791593788419, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
       propertyPath: m_Name
-      value: LED_E
+      value: LED_C
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
@@ -635,7 +635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723771791593788419, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
       propertyPath: m_Name
-      value: LED_A
+      value: LED_E
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
@@ -718,7 +718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723771791593788419, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
       propertyPath: m_Name
-      value: LED_C
+      value: LED_A
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
@@ -1242,7 +1242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723771791593788419, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
       propertyPath: m_Name
-      value: LED_D
+      value: LED_B
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
@@ -1382,7 +1382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723771791593788419, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
       propertyPath: m_Name
-      value: LED_B
+      value: LED_F
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6161f0a1ace9a5a409121e52f2baa232, type: 3}
