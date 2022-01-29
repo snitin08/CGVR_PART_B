@@ -291,3 +291,5 @@ MonoBehaviour:
       m_Calls: []
   inputObject: {fileID: 0}
   connectorObject: {fileID: 0}
+  wireObject: {fileID: 4208773232764614192, guid: 4c26e6374c9692c409c024c1e51a395b, type: 3}
+  cylDefaultOrientation: {x: 0, y: 1, z: 0}

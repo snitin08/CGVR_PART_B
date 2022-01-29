@@ -49,10 +49,10 @@ public class ConnectorScript : XRBaseInteractable
                 wire.positionCount = 2;
                 wire.useWorldSpace = true;
 
-                
+
                 //For drawing line in the world space, provide the x,y,z values
                 wire.SetPosition(0, firstInteractable.transform.position); //x,y and z position of the starting point of the line
-                wire.SetPosition(1, secondInteractable.transform.position); //x,y and z position of the end point of the line                
+                wire.SetPosition(1, secondInteractable.transform.position); //x,y and z position of the end point of the line  
 
                 connectConnectors(firstInteractable, secondInteractable);
             }
@@ -73,4 +73,6 @@ public class ConnectorScript : XRBaseInteractable
         Debug.Log("Destroy object called.");
         Destroy(gameObject);
     }
+
+    
 }
