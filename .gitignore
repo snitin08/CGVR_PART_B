@@ -74,3 +74,11 @@ crashlytics-build.properties
 .vsconfig
 
 UpgradeLog.htm
+
+Create With VR Room.exe
+Create With VR Room_Data/
+MonoBleedingEdge/
+UnityCrashHandler32.exe
+UnityCrashHandler64.exe
+UnityPlayer.dll
+
